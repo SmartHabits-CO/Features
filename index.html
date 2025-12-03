@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cafe aroma</title>
+  <link rel="stylesheet" href="src/assets/styles.css" />
+  <script defer src="src/scripts/app.js"></script>
+</head>
+<body>
+
+  <nav class="topheader">
+    <a href="#" class="logo"></a>
+  </nav>
+
+  <section class="seccion-descripciones">
+    <div class="cont-gral-descripciones">
+      <div class="cont-desc-texto">
+        <h2>seccion menu</h2>
+        <p>en <strong>cafe aroma</strong> xxxxxx</p>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae,
+          similique accusamus. Vel temporibus corrupti, ea aliquid molestiae
+          dignissimos tenetur omnis pariatur quisquam, nostrum atque dolores
+          consequuntur labore placeat. Quos, tempora!
+        </p>
+      </div>
+
+      <div class="cont-desc-img">
+        <img src="images/cafe1.jpeg" alt="tazas de cafe" />
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion-productos">
+    <div class="cont-gral-productos">
+      <div class="cont-seg-texto">
+        <h2>seccion productos</h2>
+        <p>
+          disfruta Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+          eaque rem, repellat voluptatem error, omnis voluptates iste vero ex
+          eius placeat minima soluta. Laudantium ducimus, nam adipisci recusandae
+          officia asperiores?
+        </p>
+
+        <p>
+          tambien Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perferendis sint est, repellendus corporis officia, excepturi
+          consequatur repellat praesentium quasi unde quae fugiat quo debitis
+          consectetur! Rem praesentium consequatur vel modi.
+        </p>
+
+        <button>leer mas...</button>
+      </div>
+
+      <div class="cont-seg-video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VNzIrLrBFrM?si=veFnSeJF7zMYwtcD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion-contacto">
+    <div class="cont-gral-formulario">
+      <form class="formulario" id="contactForm">
+        <div class="campo">
+          <label for="nombre">nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre" />
+        </div>
+
+        <div class="campo">
+          <label for="pais">pais</label>
+          <select id="pais" name="pais">
+            <option value="">seleccione un pais</option>
+            <option value="peru">peru</option>
+            <option value="mexico">mexico</option>
+            <option value="argentina">argentina</option>
+            <option value="chile">chile</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label>preferencias</label>
+          <ul class="lista-checkbox">
+            <li>
+              <label>
+                <input type="checkbox" name="intereses" value="cafe" /> cafe
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="intereses" value="te" /> te
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="intereses" value="postres" /> postres
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="campo">
+          <label>tipo de reserva</label>
+          <ul class="lista-radio">
+            <li>
+              <label>
+                <input type="radio" name="reserva" value="individual" /> individual
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="reserva" value="grupal" /> grupal
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer class="seccion-footer">
+    <div class="cont-gral-footer">
+      <div class="footer-info">
+        <h3>acerca de nosotros</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
+          quidem aliquid quaerat ut optio neque non, maiores voluptates iusto
+          dolorum quas deleniti magni facere eos iste, dolorem sequi!
+          Consequatur, eaque?
+        </p>
+        <p>&copy; 2025 cafe aroma. todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
